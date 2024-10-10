@@ -1,4 +1,4 @@
-export enum RouteName {
+export enum Routes {
   ONBOARING = "Onboarding",
   HOME = "Home",
 }

@@ -7,7 +7,7 @@ import {
   Nunito_700Bold,
 } from "@expo-google-fonts/nunito";
 
-import { Routes } from "./src/navigation";
+import { AppNavigation } from "./src/navigation";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -16,5 +16,5 @@ export default function App() {
     Nunito_700Bold,
   });
 
-  return fontsLoaded && <Routes />;
+  return fontsLoaded && <AppNavigation />;
 }
