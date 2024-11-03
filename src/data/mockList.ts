@@ -36,3 +36,42 @@ export const cardList = [
     title: "Forest",
   },
 ];
+
+export const placesList = [
+  {
+    id: 1,
+    image: require("@assets/city.jpg"),
+    title: "Paris",
+    description: "",
+  },
+  {
+    id: 2,
+    image: require("@assets/sunset.jpg"),
+    title: "",
+    description: "",
+  },
+  {
+    id: 3,
+    image: require("@assets/camp.jpeg"),
+    title: "Londres",
+    description: "",
+  },
+  {
+    id: 4,
+    image: require("@assets/onboarding.jpeg"),
+    title: "Madrid",
+    description: "",
+  },
+  {
+    id: 5,
+    image: require("@assets/city.jpg"),
+    title: "Dubai",
+    description: "",
+  },
+  {
+    id: 6,
+    image: require("@assets/sunset.jpg"),
+    title: "Rio de Janiero",
+    description: "",
+  },
+];

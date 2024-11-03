@@ -12,6 +12,7 @@ import { Categories } from "@components/Categories";
 import { Input } from "@components/Input";
 
 import { styles } from "./styles";
+import { Places } from "@components/Places";
 
 export function Home() {
   const [text, onChangeText] = useState("");
@@ -21,7 +22,7 @@ export function Home() {
       behavior={Platform.OS === "ios" ? "padding" : "height"}
       style={styles.avoidingViewContainer}
     >
-      <ScrollView style={styles.container}>
+      <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
           <Text style={styles.title}>Let's Discover </Text>
 
@@ -36,6 +37,8 @@ export function Home() {
           />
 
           <Categories />
+
+          <Places />
         </View>
       </ScrollView>
     </KeyboardAvoidingView>
