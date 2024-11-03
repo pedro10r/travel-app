@@ -11,6 +11,7 @@ import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { Input } from "@components/Input";
 
 import { styles } from "./styles";
+import { Categories } from "@components/Categories";
 
 export function Home() {
   const [text, onChangeText] = useState("");
@@ -33,6 +34,8 @@ export function Home() {
             onChangeText={onChangeText}
             placeholder="Search"
           />
+
+          <Categories />
         </View>
       </ScrollView>
     </KeyboardAvoidingView>

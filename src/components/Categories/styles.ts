@@ -4,24 +4,18 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: 20,
-    paddingTop: 60,
-    backgroundColor: theme.colors.white,
-  },
-  avoidingViewContainer: {
-    flex: 1,
+    gap: 20,
   },
   header: {
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 50,
   },
-  title: {
-    fontFamily: theme.fonts.bold,
-    fontSize: 30,
+  text: {
+    fontFamily: theme.fonts.regular,
+    fontSize: 16,
   },
-  content: {
-    gap: 40,
+  button: {
+    color: theme.colors.orange,
   },
 });
