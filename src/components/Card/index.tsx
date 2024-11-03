@@ -15,7 +15,7 @@ export function Card({ data }: CardProps) {
     <View style={styles.container}>
       <TouchableOpacity style={styles.card} activeOpacity={0.8}>
         <Image
-          source={{ uri: data.image }}
+          source={{ uri: data?.image }}
           style={styles.image}
           resizeMode="center"
         />

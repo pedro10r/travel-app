@@ -8,10 +8,10 @@ import {
 } from "react-native";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
+import { Categories } from "@components/Categories";
 import { Input } from "@components/Input";
 
 import { styles } from "./styles";
-import { Categories } from "@components/Categories";
 
 export function Home() {
   const [text, onChangeText] = useState("");

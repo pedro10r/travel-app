@@ -1,8 +1,8 @@
 import { FlatList } from "react-native";
 
 import { Card } from "@components/Card";
+import { cardList } from "@data/mockList";
 
-import { cardList } from "../../data/mockList";
 import { styles } from "./styles";
 
 type CategoryListProps = {};
