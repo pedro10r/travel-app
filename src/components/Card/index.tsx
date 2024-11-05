@@ -1,13 +1,10 @@
 import { Text, TouchableOpacity, Image, View } from "react-native";
 
 import { styles } from "./styles";
+import { TCard } from "@data/types";
 
 type CardProps = {
-  data: {
-    id: number;
-    image: string;
-    title: string;
-  };
+  data: TCard;
 };
 
 export function Card({ data }: CardProps) {
@@ -20,6 +17,7 @@ export function Card({ data }: CardProps) {
           resizeMode="center"
         />
       </TouchableOpacity>
+
       <Text style={styles.title}>{data?.title}</Text>
     </View>
   );

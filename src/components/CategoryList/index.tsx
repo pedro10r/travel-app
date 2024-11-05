@@ -1,16 +1,18 @@
 import { FlatList } from "react-native";
 
 import { Card } from "@components/Card";
-import { cardList } from "@data/mockList";
+import { TCard } from "@data/types";
 
 import { styles } from "./styles";
 
-type CategoryListProps = {};
+type CategoryListProps = {
+  data: TCard[];
+};
 
-export function CategoryList({}: CategoryListProps) {
+export function CategoryList({ data }: CategoryListProps) {
   return (
     <FlatList
-      data={cardList}
+      data={data}
       keyExtractor={(item, index) => `${item?.id}_${index}`}
       horizontal
       showsHorizontalScrollIndicator={false}

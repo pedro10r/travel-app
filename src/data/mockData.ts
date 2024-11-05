@@ -1,4 +1,6 @@
-export const cardList = [
+import { TCard, TPlace } from "./types";
+
+export const cardList: TCard[] = [
   {
     id: 1,
     image:
@@ -37,7 +39,7 @@ export const cardList = [
   },
 ];
 
-export const placesList = [
+export const placesList: TPlace[] = [
   {
     id: 1,
     image: require("@assets/city.jpg"),

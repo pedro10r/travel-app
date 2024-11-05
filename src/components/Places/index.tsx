@@ -8,7 +8,7 @@ import {
 } from "react-native";
 
 import { Shortcuts } from "@components/Shortcuts";
-import { placesList } from "@data/mockList";
+import { placesList } from "@data/mockData";
 
 import { styles } from "./styles";
 

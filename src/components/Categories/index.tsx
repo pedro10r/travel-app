@@ -1,6 +1,7 @@
 import { Text, TouchableOpacity, View } from "react-native";
 
 import { CategoryList } from "@components/CategoryList";
+import { cardList } from "@data/mockData";
 
 import { styles } from "./styles";
 
@@ -17,7 +18,7 @@ export function Categories({}: CategoriesProps) {
         </TouchableOpacity>
       </View>
 
-      <CategoryList />
+      <CategoryList data={cardList} />
     </View>
   );
 }
