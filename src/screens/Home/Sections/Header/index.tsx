@@ -1,9 +1,8 @@
 import { Text, TouchableOpacity, View } from "react-native";
 
-import { styles } from "./styles";
-import { Ionicons } from "@expo/vector-icons";
-
 import ProfileIcon from "@assets/icons/profile.svg";
+
+import { styles } from "./styles";
 
 export default function Header() {
   return (

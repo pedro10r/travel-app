@@ -5,9 +5,7 @@ import { cardList } from "@data/mockData";
 
 import { styles } from "./styles";
 
-type CategoriesProps = {};
-
-export function Categories({}: CategoriesProps) {
+export function Categories() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>

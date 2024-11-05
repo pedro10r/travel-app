@@ -1,8 +1,9 @@
 import { TextInput, TextInputProps, View } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-import { styles } from "./styles";
 import { theme } from "@styles/theme";
+
+import { styles } from "./styles";
 
 type SearchProps = TextInputProps & {
   placeholder: string;

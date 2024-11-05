@@ -1,14 +1,12 @@
 import { ImageBackground, Text, TouchableOpacity, View } from "react-native";
+import { useNavigation } from "@react-navigation/native";
+
+import { Routes } from "@navigation/routes";
+import background from "@assets/images/onboarding.jpeg";
 
 import { styles } from "./styles";
 
-import background from "@assets/images/onboarding.jpeg";
-import { useNavigation } from "@react-navigation/native";
-import { Routes } from "@navigation/routes";
-
-type OnboardingProps = {};
-
-export function Onboarding({}: OnboardingProps) {
+export function Onboarding() {
   const { navigate } = useNavigation();
 
   function handleGoHome() {

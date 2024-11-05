@@ -1,7 +1,8 @@
 import { Text, TouchableOpacity, Image, View } from "react-native";
 
-import { styles } from "./styles";
 import { TCard } from "@data/types";
+
+import { styles } from "./styles";
 
 type CardProps = {
   data: TCard;
