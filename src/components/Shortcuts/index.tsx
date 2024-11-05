@@ -13,20 +13,23 @@ type ShortcutsProps = {
 };
 
 export function Shortcuts({ onPress }: ShortcutsProps) {
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const opacity = useSharedValue(1);
 
   const buttons = ["All", "Popular", "Recommended", "More"];
 
-  const handlePress = useCallback((index: number) => {
-    if (index !== selectedIndex) {
-      opacity.value = 0;
-      opacity.value = withTiming(1, { duration: 700 });
+  const handlePress = useCallback(
+    (index: number) => {
+      if (index !== selectedIndex) {
+        opacity.value = 0;
+        opacity.value = withTiming(1, { duration: 700 });
 
-      setSelectedIndex(index);
-      onPress();
-    }
-  }, []);
+        setSelectedIndex(index);
+        onPress();
+      }
+    },
+    [selectedIndex, onPress]
+  );
 
   return (
     <View style={styles.shortcuts}>

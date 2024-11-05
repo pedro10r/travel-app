@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     gap: 30,
   },
   scrollView: {
-    marginBottom: 70,
+    marginBottom: 20,
   },
   row: {
     flexDirection: "row",

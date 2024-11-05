@@ -1,4 +1,5 @@
 import { KeyboardAvoidingView, Platform, ScrollView } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 import { ContentSection, HeaderSection } from "./Sections";
 
@@ -10,11 +11,16 @@ export function Home() {
       behavior={Platform.OS === "ios" ? "padding" : "height"}
       style={styles.avoidingViewContainer}
     >
-      <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-        <HeaderSection />
+      <SafeAreaView style={styles.container}>
+        <ScrollView
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={styles.content}
+        >
+          <HeaderSection />
 
-        <ContentSection />
-      </ScrollView>
+          <ContentSection />
+        </ScrollView>
+      </SafeAreaView>
     </KeyboardAvoidingView>
   );
 }

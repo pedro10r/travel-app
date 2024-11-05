@@ -1,4 +1,5 @@
 import React from "react";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
 import {
   useFonts,
@@ -16,5 +17,7 @@ export default function App() {
     Nunito_700Bold,
   });
 
-  return fontsLoaded && <AppNavigation />;
+  return (
+    <SafeAreaProvider>{fontsLoaded && <AppNavigation />}</SafeAreaProvider>
+  );
 }
