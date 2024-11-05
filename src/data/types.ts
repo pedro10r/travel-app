@@ -8,7 +8,7 @@ export type TCard = {
 
 export type TPlace = {
   id: number;
-  image: ImageSourcePropType;
+  image: string;
   title: string;
   description: string;
 };

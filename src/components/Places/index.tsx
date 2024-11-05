@@ -28,7 +28,7 @@ export function Places({}: PlacesProps) {
               style={styles.column}
             >
               <ImageBackground
-                source={item?.image}
+                src={item?.image}
                 style={styles.card}
                 imageStyle={styles.image}
                 resizeMode="stretch"

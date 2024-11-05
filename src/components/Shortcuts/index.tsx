@@ -13,7 +13,7 @@ type ShortcutsProps = {
 };
 
 export function Shortcuts({ onPress }: ShortcutsProps) {
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(0);
   const opacity = useSharedValue(1);
 
   const buttons = ["All", "Popular", "Recommended", "More"];
