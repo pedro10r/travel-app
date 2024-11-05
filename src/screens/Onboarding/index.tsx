@@ -2,7 +2,7 @@ import { ImageBackground, Text, TouchableOpacity, View } from "react-native";
 
 import { styles } from "./styles";
 
-import background from "@assets/onboarding.jpeg";
+import background from "@assets/images/onboarding.jpeg";
 import { useNavigation } from "@react-navigation/native";
 import { Routes } from "@navigation/routes";
 
