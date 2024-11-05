@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     gap: 30,
   },
   scrollView: {
-    padding: 10,
+    marginBottom: 70,
   },
   row: {
     flexDirection: "row",
@@ -21,8 +21,8 @@ export const styles = StyleSheet.create({
   card: {
     height: 220,
     justifyContent: "flex-end",
-    alignItems: "center",
-    padding: 10,
+    alignItems: "flex-start",
+    paddingHorizontal: 20,
   },
   image: {
     borderRadius: 30,
@@ -30,12 +30,14 @@ export const styles = StyleSheet.create({
   title: {
     fontFamily: theme.fonts.bold,
     color: theme.colors.white,
-    fontSize: 16,
+    fontSize: 14,
+    marginBottom: 5,
   },
   description: {
     fontFamily: theme.fonts.regular,
     color: theme.colors.white,
-    fontSize: 12,
-    textAlign: "center",
+    fontSize: 10,
+    lineHeight: 10,
+    marginBottom: 20,
   },
 });

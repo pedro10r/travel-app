@@ -42,36 +42,28 @@ export const placesList = [
     id: 1,
     image: require("@assets/city.jpg"),
     title: "Paris",
-    description: "",
+    description:
+      "Cidade das Luzes, famosa por sua arte, arquitetura, gastronomia e marcos históricos, como a Torre Eiffel",
   },
   {
     id: 2,
     image: require("@assets/sunset.jpg"),
-    title: "",
-    description: "",
+    title: "Dubai",
+    description:
+      "Cidade futurista no deserto, com arranha-céus, luxo, comércio e atrações inovadoras como o Burj Khalifa",
   },
   {
     id: 3,
     image: require("@assets/camp.jpeg"),
     title: "Londres",
-    description: "",
+    description:
+      "Cidade futurista no deserto, com arranha-céus, luxo, comércio e atrações inovadoras como o Burj Khalifa",
   },
   {
     id: 4,
     image: require("@assets/onboarding.jpeg"),
     title: "Madrid",
-    description: "",
-  },
-  {
-    id: 5,
-    image: require("@assets/city.jpg"),
-    title: "Dubai",
-    description: "",
-  },
-  {
-    id: 6,
-    image: require("@assets/sunset.jpg"),
-    title: "Rio de Janiero",
-    description: "",
+    description:
+      "Capital da Espanha, rica em cultura, com museus famosos, culinária tradicional e animada vida noturna",
   },
 ];

@@ -11,17 +11,4 @@ export const styles = StyleSheet.create({
   avoidingViewContainer: {
     flex: 1,
   },
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginBottom: 50,
-  },
-  title: {
-    fontFamily: theme.fonts.bold,
-    fontSize: 30,
-  },
-  content: {
-    gap: 40,
-  },
 });

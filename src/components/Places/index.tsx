@@ -33,11 +33,8 @@ export function Places({}: PlacesProps) {
                 imageStyle={styles.image}
                 resizeMode="stretch"
               >
-                <Text style={styles.title}>Pedro é Homem</Text>
-                <Text style={styles.description}>
-                  Pedro é uma pessoa muito legal porque ele é da igreja e joga
-                  futevolei
-                </Text>
+                <Text style={styles.title}>{item?.title}</Text>
+                <Text style={styles.description}>{item?.description}</Text>
               </ImageBackground>
             </TouchableOpacity>
           ))}
