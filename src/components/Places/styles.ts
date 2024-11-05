@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   },
   card: {
     height: 220,
-    justifyContent: "flex-end",
+    justifyContent: "space-between",
     alignItems: "flex-start",
     paddingHorizontal: 20,
   },
@@ -39,5 +39,13 @@ export const styles = StyleSheet.create({
     fontSize: 10,
     lineHeight: 10,
     marginBottom: 20,
+  },
+  like: {
+    backgroundColor: theme.colors.whiteTransparent,
+    borderRadius: 50,
+    padding: 10,
+    alignSelf: "flex-end",
+    marginTop: 10,
+    marginRight: -10,
   },
 });

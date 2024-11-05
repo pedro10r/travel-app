@@ -46,7 +46,7 @@ export const placesList: TPlace[] = [
       "https://i.pinimg.com/736x/02/47/52/02475265af32034c874958eb131d19db.jpg",
     title: "Paris",
     description:
-      "Cidade das Luzes, famosa por sua arte, arquitetura, gastronomia e marcos históricos, como a Torre Eiffel",
+      "City of Lights, famous for its art, architecture, cuisine, and landmarks like the Eiffel Tower.",
   },
   {
     id: 2,
@@ -54,15 +54,15 @@ export const placesList: TPlace[] = [
       "https://i.pinimg.com/736x/03/51/a9/0351a9a3242d5fd3ff02a7b2870a2273.jpg",
     title: "Dubai",
     description:
-      "Cidade futurista no deserto, com arranha-céus, luxo, comércio e atrações inovadoras como o Burj Khalifa",
+      "Futuristic desert city with skyscrapers, luxury, shopping, and innovative attractions like the Burj Khalifa.",
   },
   {
     id: 3,
     image:
       "https://i.pinimg.com/564x/a7/3f/de/a73fde06f9959b078c7a2fab69d1f61d.jpg",
-    title: "Londres",
+    title: "London",
     description:
-      "Cidade futurista no deserto, com arranha-céus, luxo, comércio e atrações inovadoras como o Burj Khalifa",
+      "Historic and vibrant city known for culture, iconic landmarks, and diversity, with sites like Big Ben.",
   },
   {
     id: 4,
@@ -70,6 +70,6 @@ export const placesList: TPlace[] = [
       "https://i.pinimg.com/564x/dc/d1/49/dcd1491147a36b88b96def13e90e0eba.jpg",
     title: "Rio de Janeiro",
     description:
-      "Cidade vibrante, famosa por suas praias, Carnaval, Cristo Redentor, Pão de Açúcar e beleza natural deslumbrante.",
+      "Vibrant city famous for its beaches, Carnival, Christ the Redeemer, Sugarloaf Mountain, and stunning natural beauty.",
   },
 ];
